@@ -1,0 +1,36 @@
+{
+  "permalink": "/rxjs-on-the-netease-cloud-music-desktop",
+  "source": "@site/blog/rxjs-on-the-netease-cloud-music-desktop/index.md",
+  "title": "云音乐桌面端基于 RxJs 的数据层探索",
+  "description": "前言",
+  "date": "2020-01-01T10:00:00.000Z",
+  "formattedDate": "2020年1月1日",
+  "tags": [],
+  "readingTime": 35.105,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Auver",
+      "title": "全干工程师",
+      "url": "https://github.com/auver",
+      "imageURL": "https://github.com/auver.png",
+      "key": "auver"
+    }
+  ],
+  "frontMatter": {
+    "slug": "rxjs-on-the-netease-cloud-music-desktop",
+    "title": "云音乐桌面端基于 RxJs 的数据层探索",
+    "authors": "auver",
+    "date": "2020-01-01T10:00",
+    "tags": []
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "React Hooks 最佳实践",
+    "permalink": "/react-hooks-best-practices"
+  },
+  "nextItem": {
+    "title": "巧用CSS遮罩",
+    "permalink": "/css-mask"
+  }
+}

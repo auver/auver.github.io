@@ -1,0 +1,32 @@
+{
+  "permalink": "/css-mask",
+  "source": "@site/blog/css-mask/index.md",
+  "title": "巧用CSS遮罩",
+  "description": "1. 用法 ##",
+  "date": "2016-12-01T10:00:00.000Z",
+  "formattedDate": "2016年12月1日",
+  "tags": [],
+  "readingTime": 3.44,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Auver",
+      "title": "全干工程师",
+      "url": "https://github.com/auver",
+      "imageURL": "https://github.com/auver.png",
+      "key": "auver"
+    }
+  ],
+  "frontMatter": {
+    "slug": "css-mask",
+    "title": "巧用CSS遮罩",
+    "authors": "auver",
+    "date": "2016-12-01T10:00",
+    "tags": []
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "云音乐桌面端基于 RxJs 的数据层探索",
+    "permalink": "/rxjs-on-the-netease-cloud-music-desktop"
+  }
+}

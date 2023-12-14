@@ -1,6 +1,5 @@
 {
-  "permalink": "/blog/long-blog-post",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
+  "permalink": "/long-blog-post",
   "source": "@site/blog/2019-05-29-long-blog-post.md",
   "title": "Long Blog Post",
   "description": "This is the summary of a very long blog post,",
@@ -9,11 +8,11 @@
   "tags": [
     {
       "label": "hello",
-      "permalink": "/blog/tags/hello"
+      "permalink": "/tags/hello"
     },
     {
       "label": "docusaurus",
-      "permalink": "/blog/tags/docusaurus"
+      "permalink": "/tags/docusaurus"
     }
   ],
   "readingTime": 2.05,
@@ -39,10 +38,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
+    "permalink": "/mdx-blog-post"
   },
   "nextItem": {
     "title": "First Blog Post",
-    "permalink": "/blog/first-blog-post"
+    "permalink": "/first-blog-post"
   }
 }

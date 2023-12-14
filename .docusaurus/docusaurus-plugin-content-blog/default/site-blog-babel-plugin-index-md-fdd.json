@@ -1,0 +1,36 @@
+{
+  "permalink": "/babel-plugin",
+  "source": "@site/blog/babel-plugin/index.md",
+  "title": "Babel插件指南",
+  "description": "本文旨在通过提取官方文档的关键内容，略去一些知识，快速了解插件的基本编写方式，方便你在较低学习成本下写出插件。",
+  "date": "2022-09-28T18:00:00.000Z",
+  "formattedDate": "2022年9月28日",
+  "tags": [],
+  "readingTime": 14.315,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Auver",
+      "title": "全干工程师",
+      "url": "https://github.com/auver",
+      "imageURL": "https://github.com/auver.png",
+      "key": "auver"
+    }
+  ],
+  "frontMatter": {
+    "slug": "babel-plugin",
+    "title": "Babel插件指南",
+    "authors": "auver",
+    "date": "2022-09-28T18:00",
+    "tags": []
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "SourceMap格式详解",
+    "permalink": "/sourcemap"
+  },
+  "nextItem": {
+    "title": "基于RxJs封装友好的跨进程（页面）通信",
+    "permalink": "/rxjs-ipc"
+  }
+}

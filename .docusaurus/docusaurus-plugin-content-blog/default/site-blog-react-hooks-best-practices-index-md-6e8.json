@@ -1,0 +1,36 @@
+{
+  "permalink": "/react-hooks-best-practices",
+  "source": "@site/blog/react-hooks-best-practices/index.md",
+  "title": "React Hooks 最佳实践",
+  "description": "写在前面",
+  "date": "2020-03-18T10:00:00.000Z",
+  "formattedDate": "2020年3月18日",
+  "tags": [],
+  "readingTime": 37.1,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Auver",
+      "title": "全干工程师",
+      "url": "https://github.com/auver",
+      "imageURL": "https://github.com/auver.png",
+      "key": "auver"
+    }
+  ],
+  "frontMatter": {
+    "slug": "react-hooks-best-practices",
+    "title": "React Hooks 最佳实践",
+    "authors": "auver",
+    "date": "2020-03-18T10:00",
+    "tags": []
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "从0到1，实现Electron应用自动更新功能",
+    "permalink": "/electron-apps-automatically-update"
+  },
+  "nextItem": {
+    "title": "云音乐桌面端基于 RxJs 的数据层探索",
+    "permalink": "/rxjs-on-the-netease-cloud-music-desktop"
+  }
+}

@@ -1,24 +1,39 @@
 {
-  "title": "Recent posts",
+  "title": "所有文章",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/blog/welcome",
+      "title": "SourceMap格式详解",
+      "permalink": "/sourcemap",
       "unlisted": false
     },
     {
-      "title": "MDX Blog Post",
-      "permalink": "/blog/mdx-blog-post",
+      "title": "Babel插件指南",
+      "permalink": "/babel-plugin",
       "unlisted": false
     },
     {
-      "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post",
+      "title": "基于RxJs封装友好的跨进程（页面）通信",
+      "permalink": "/rxjs-ipc",
       "unlisted": false
     },
     {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post",
+      "title": "从0到1，实现Electron应用自动更新功能",
+      "permalink": "/electron-apps-automatically-update",
+      "unlisted": false
+    },
+    {
+      "title": "React Hooks 最佳实践",
+      "permalink": "/react-hooks-best-practices",
+      "unlisted": false
+    },
+    {
+      "title": "云音乐桌面端基于 RxJs 的数据层探索",
+      "permalink": "/rxjs-on-the-netease-cloud-music-desktop",
+      "unlisted": false
+    },
+    {
+      "title": "巧用CSS遮罩",
+      "permalink": "/css-mask",
       "unlisted": false
     }
   ]

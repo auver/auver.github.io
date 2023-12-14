@@ -1,0 +1,32 @@
+{
+  "permalink": "/sourcemap",
+  "source": "@site/blog/sourcemap/index.md",
+  "title": "SourceMap格式详解",
+  "description": "之前都是借助浏览器直接使用SourceMap，只知道里面储存着位置信息，来将压缩混淆后的代码还原回压缩混淆前的代码，但对其具体格式并不了解。因为笔者近期在对NEJ打包脚本做升级，希望只保留NEJ对代码模块依赖分析的部分，对于代码编译引入Babel，对于代码混淆则引入UglifyJS 3的版本。因此必须对SourceMap格式做详细的了解，以实现SourceMap经过Babel，UglifyJS，文件合并后，依然能保持正确，实现代码的反混淆。",
+  "date": "2022-09-30T18:00:00.000Z",
+  "formattedDate": "2022年9月30日",
+  "tags": [],
+  "readingTime": 7.365,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Auver",
+      "title": "全干工程师",
+      "url": "https://github.com/auver",
+      "imageURL": "https://github.com/auver.png",
+      "key": "auver"
+    }
+  ],
+  "frontMatter": {
+    "slug": "sourcemap",
+    "title": "SourceMap格式详解",
+    "authors": "auver",
+    "date": "2022-09-30T18:00",
+    "tags": []
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Babel插件指南",
+    "permalink": "/babel-plugin"
+  }
+}
