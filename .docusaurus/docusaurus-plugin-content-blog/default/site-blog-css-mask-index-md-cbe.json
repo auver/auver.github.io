@@ -5,7 +5,12 @@
   "description": "1. 用法 ##",
   "date": "2016-12-01T10:00:00.000Z",
   "formattedDate": "2016年12月1日",
-  "tags": [],
+  "tags": [
+    {
+      "label": "css",
+      "permalink": "/tags/css"
+    }
+  ],
   "readingTime": 3.44,
   "hasTruncateMarker": true,
   "authors": [
@@ -22,11 +27,13 @@
     "title": "巧用CSS遮罩",
     "authors": "auver",
     "date": "2016-12-01T10:00",
-    "tags": []
+    "tags": [
+      "css"
+    ]
   },
   "unlisted": false,
   "prevItem": {
-    "title": "云音乐桌面端基于 RxJs 的数据层探索",
-    "permalink": "/rxjs-on-the-netease-cloud-music-desktop"
+    "title": "Observable的冷与热",
+    "permalink": "/hot-vs-cold-observables"
   }
 }

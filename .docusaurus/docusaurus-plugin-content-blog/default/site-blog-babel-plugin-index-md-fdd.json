@@ -5,7 +5,20 @@
   "description": "本文旨在通过提取官方文档的关键内容，略去一些知识，快速了解插件的基本编写方式，方便你在较低学习成本下写出插件。",
   "date": "2022-09-28T18:00:00.000Z",
   "formattedDate": "2022年9月28日",
-  "tags": [],
+  "tags": [
+    {
+      "label": "babel",
+      "permalink": "/tags/babel"
+    },
+    {
+      "label": "ast",
+      "permalink": "/tags/ast"
+    },
+    {
+      "label": "javascript",
+      "permalink": "/tags/javascript"
+    }
+  ],
   "readingTime": 14.315,
   "hasTruncateMarker": true,
   "authors": [
@@ -22,7 +35,11 @@
     "title": "Babel插件指南",
     "authors": "auver",
     "date": "2022-09-28T18:00",
-    "tags": []
+    "tags": [
+      "babel",
+      "ast",
+      "javascript"
+    ]
   },
   "unlisted": false,
   "prevItem": {

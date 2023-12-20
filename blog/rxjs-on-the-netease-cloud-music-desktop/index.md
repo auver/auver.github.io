@@ -3,7 +3,7 @@ slug: rxjs-on-the-netease-cloud-music-desktop
 title: 云音乐桌面端基于 RxJs 的数据层探索
 authors: auver
 date: 2020-01-01T10:00
-tags: []
+tags: [rxjs, javascript]
 ---
 
 # 云音乐桌面端基于 RxJs 的数据层探索

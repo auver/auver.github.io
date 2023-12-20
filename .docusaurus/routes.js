@@ -58,6 +58,11 @@ export default [
     exact: true
   },
   {
+    path: '/hot-vs-cold-observables',
+    component: ComponentCreator('/hot-vs-cold-observables', '2b5'),
+    exact: true
+  },
+  {
     path: '/react-hooks-best-practices',
     component: ComponentCreator('/react-hooks-best-practices', '44b'),
     exact: true
@@ -78,8 +83,58 @@ export default [
     exact: true
   },
   {
+    path: '/tags',
+    component: ComponentCreator('/tags', '26c'),
+    exact: true
+  },
+  {
+    path: '/tags/ast',
+    component: ComponentCreator('/tags/ast', 'bb8'),
+    exact: true
+  },
+  {
+    path: '/tags/babel',
+    component: ComponentCreator('/tags/babel', 'f33'),
+    exact: true
+  },
+  {
+    path: '/tags/css',
+    component: ComponentCreator('/tags/css', '499'),
+    exact: true
+  },
+  {
+    path: '/tags/electron',
+    component: ComponentCreator('/tags/electron', '38c'),
+    exact: true
+  },
+  {
+    path: '/tags/hooks',
+    component: ComponentCreator('/tags/hooks', 'e37'),
+    exact: true
+  },
+  {
+    path: '/tags/javascript',
+    component: ComponentCreator('/tags/javascript', '3a0'),
+    exact: true
+  },
+  {
+    path: '/tags/react',
+    component: ComponentCreator('/tags/react', '98c'),
+    exact: true
+  },
+  {
+    path: '/tags/rxjs',
+    component: ComponentCreator('/tags/rxjs', 'df9'),
+    exact: true
+  },
+  {
+    path: '/tags/sourcemap',
+    component: ComponentCreator('/tags/sourcemap', 'f5a'),
+    exact: true
+  },
+  {
     path: '/',
-    component: ComponentCreator('/', '6c8'),
+    component: ComponentCreator('/', '448'),
     exact: true
   },
   {

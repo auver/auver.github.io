@@ -3,7 +3,7 @@ slug: babel-plugin
 title: Babel插件指南
 authors: auver
 date: 2022-09-28T18:00
-tags: []
+tags: [babel, ast, javascript]
 ---
 
 # 背景

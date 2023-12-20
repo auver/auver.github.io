@@ -3,7 +3,7 @@ slug: electron-apps-automatically-update
 title: 从0到1，实现Electron应用自动更新功能
 authors: auver
 date: 2022-04-11T18:00
-tags: []
+tags: [electron]
 ---
 
 # Squirrel介绍

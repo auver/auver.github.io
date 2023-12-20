@@ -5,7 +5,12 @@
   "description": "Electron的自动更新能力完全由Squirrel提供。我们先来了解下Squirrel能够提供怎样的更新能力：",
   "date": "2022-04-11T18:00:00.000Z",
   "formattedDate": "2022年4月11日",
-  "tags": [],
+  "tags": [
+    {
+      "label": "electron",
+      "permalink": "/tags/electron"
+    }
+  ],
   "readingTime": 8.2,
   "hasTruncateMarker": true,
   "authors": [
@@ -22,7 +27,9 @@
     "title": "从0到1，实现Electron应用自动更新功能",
     "authors": "auver",
     "date": "2022-04-11T18:00",
-    "tags": []
+    "tags": [
+      "electron"
+    ]
   },
   "unlisted": false,
   "prevItem": {

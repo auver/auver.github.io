@@ -5,7 +5,20 @@
   "description": "写在前面",
   "date": "2020-03-18T10:00:00.000Z",
   "formattedDate": "2020年3月18日",
-  "tags": [],
+  "tags": [
+    {
+      "label": "hooks",
+      "permalink": "/tags/hooks"
+    },
+    {
+      "label": "react",
+      "permalink": "/tags/react"
+    },
+    {
+      "label": "javascript",
+      "permalink": "/tags/javascript"
+    }
+  ],
   "readingTime": 37.1,
   "hasTruncateMarker": true,
   "authors": [
@@ -22,7 +35,11 @@
     "title": "React Hooks 最佳实践",
     "authors": "auver",
     "date": "2020-03-18T10:00",
-    "tags": []
+    "tags": [
+      "hooks",
+      "react",
+      "javascript"
+    ]
   },
   "unlisted": false,
   "prevItem": {

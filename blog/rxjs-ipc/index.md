@@ -3,7 +3,7 @@ slug: rxjs-ipc
 title: 基于RxJs封装友好的跨进程（页面）通信
 authors: auver
 date: 2022-06-23T10:00
-tags: []
+tags: [rxjs, javascript]
 ---
 
 本文将以热门的跨平台桌面应用构建方案 Electron 为例，讲讲在跨进程通信中出现的痛点，并使用RxJs解决这些问题，当然这里的方案不仅仅适用于Electron，同样可以复制到如跨页面通信，主页面与 worker 之间的场景。

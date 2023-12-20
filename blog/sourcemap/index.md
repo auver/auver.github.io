@@ -3,7 +3,8 @@ slug: sourcemap
 title: SourceMap格式详解
 authors: auver
 date: 2022-09-30T18:00
-tags: []
+tags: [sourcemap, javascript]
+image: https://i.imgur.com/mErPwqL.png
 ---
 
 # 背景

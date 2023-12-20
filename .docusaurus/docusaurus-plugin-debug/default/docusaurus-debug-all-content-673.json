@@ -12,7 +12,16 @@
             "description": "之前都是借助浏览器直接使用SourceMap，只知道里面储存着位置信息，来将压缩混淆后的代码还原回压缩混淆前的代码，但对其具体格式并不了解。因为笔者近期在对NEJ打包脚本做升级，希望只保留NEJ对代码模块依赖分析的部分，对于代码编译引入Babel，对于代码混淆则引入UglifyJS 3的版本。因此必须对SourceMap格式做详细的了解，以实现SourceMap经过Babel，UglifyJS，文件合并后，依然能保持正确，实现代码的反混淆。",
             "date": "2022-09-30T18:00:00.000Z",
             "formattedDate": "2022年9月30日",
-            "tags": [],
+            "tags": [
+              {
+                "label": "sourcemap",
+                "permalink": "/tags/sourcemap"
+              },
+              {
+                "label": "javascript",
+                "permalink": "/tags/javascript"
+              }
+            ],
             "readingTime": 7.365,
             "hasTruncateMarker": true,
             "authors": [
@@ -29,7 +38,11 @@
               "title": "SourceMap格式详解",
               "authors": "auver",
               "date": "2022-09-30T18:00",
-              "tags": []
+              "tags": [
+                "sourcemap",
+                "javascript"
+              ],
+              "image": "https://i.imgur.com/mErPwqL.png"
             },
             "unlisted": false,
             "nextItem": {
@@ -48,7 +61,20 @@
             "description": "本文旨在通过提取官方文档的关键内容，略去一些知识，快速了解插件的基本编写方式，方便你在较低学习成本下写出插件。",
             "date": "2022-09-28T18:00:00.000Z",
             "formattedDate": "2022年9月28日",
-            "tags": [],
+            "tags": [
+              {
+                "label": "babel",
+                "permalink": "/tags/babel"
+              },
+              {
+                "label": "ast",
+                "permalink": "/tags/ast"
+              },
+              {
+                "label": "javascript",
+                "permalink": "/tags/javascript"
+              }
+            ],
             "readingTime": 14.315,
             "hasTruncateMarker": true,
             "authors": [
@@ -65,7 +91,11 @@
               "title": "Babel插件指南",
               "authors": "auver",
               "date": "2022-09-28T18:00",
-              "tags": []
+              "tags": [
+                "babel",
+                "ast",
+                "javascript"
+              ]
             },
             "unlisted": false,
             "prevItem": {
@@ -88,7 +118,16 @@
             "description": "本文将以热门的跨平台桌面应用构建方案 Electron 为例，讲讲在跨进程通信中出现的痛点，并使用RxJs解决这些问题，当然这里的方案不仅仅适用于Electron，同样可以复制到如跨页面通信，主页面与 worker 之间的场景。",
             "date": "2022-06-23T10:00:00.000Z",
             "formattedDate": "2022年6月23日",
-            "tags": [],
+            "tags": [
+              {
+                "label": "rxjs",
+                "permalink": "/tags/rxjs"
+              },
+              {
+                "label": "javascript",
+                "permalink": "/tags/javascript"
+              }
+            ],
             "readingTime": 6.935,
             "hasTruncateMarker": true,
             "authors": [
@@ -105,7 +144,10 @@
               "title": "基于RxJs封装友好的跨进程（页面）通信",
               "authors": "auver",
               "date": "2022-06-23T10:00",
-              "tags": []
+              "tags": [
+                "rxjs",
+                "javascript"
+              ]
             },
             "unlisted": false,
             "prevItem": {
@@ -128,7 +170,12 @@
             "description": "Electron的自动更新能力完全由Squirrel提供。我们先来了解下Squirrel能够提供怎样的更新能力：",
             "date": "2022-04-11T18:00:00.000Z",
             "formattedDate": "2022年4月11日",
-            "tags": [],
+            "tags": [
+              {
+                "label": "electron",
+                "permalink": "/tags/electron"
+              }
+            ],
             "readingTime": 8.2,
             "hasTruncateMarker": true,
             "authors": [
@@ -145,7 +192,9 @@
               "title": "从0到1，实现Electron应用自动更新功能",
               "authors": "auver",
               "date": "2022-04-11T18:00",
-              "tags": []
+              "tags": [
+                "electron"
+              ]
             },
             "unlisted": false,
             "prevItem": {
@@ -168,7 +217,20 @@
             "description": "写在前面",
             "date": "2020-03-18T10:00:00.000Z",
             "formattedDate": "2020年3月18日",
-            "tags": [],
+            "tags": [
+              {
+                "label": "hooks",
+                "permalink": "/tags/hooks"
+              },
+              {
+                "label": "react",
+                "permalink": "/tags/react"
+              },
+              {
+                "label": "javascript",
+                "permalink": "/tags/javascript"
+              }
+            ],
             "readingTime": 37.1,
             "hasTruncateMarker": true,
             "authors": [
@@ -185,7 +247,11 @@
               "title": "React Hooks 最佳实践",
               "authors": "auver",
               "date": "2020-03-18T10:00",
-              "tags": []
+              "tags": [
+                "hooks",
+                "react",
+                "javascript"
+              ]
             },
             "unlisted": false,
             "prevItem": {
@@ -208,7 +274,16 @@
             "description": "前言",
             "date": "2020-01-01T10:00:00.000Z",
             "formattedDate": "2020年1月1日",
-            "tags": [],
+            "tags": [
+              {
+                "label": "rxjs",
+                "permalink": "/tags/rxjs"
+              },
+              {
+                "label": "javascript",
+                "permalink": "/tags/javascript"
+              }
+            ],
             "readingTime": 35.105,
             "hasTruncateMarker": true,
             "authors": [
@@ -225,7 +300,10 @@
               "title": "云音乐桌面端基于 RxJs 的数据层探索",
               "authors": "auver",
               "date": "2020-01-01T10:00",
-              "tags": []
+              "tags": [
+                "rxjs",
+                "javascript"
+              ]
             },
             "unlisted": false,
             "prevItem": {
@@ -233,11 +311,63 @@
               "permalink": "/react-hooks-best-practices"
             },
             "nextItem": {
+              "title": "Observable的冷与热",
+              "permalink": "/hot-vs-cold-observables"
+            }
+          },
+          "content": "## 前言\n\n网易云音乐 PC/MAC/Linux 这三大桌面端，均采用了在原生应用中嵌入前端页面的方式。\n\n通俗地说，就是将一个本地的 HTML 页面在浏览器中打开，但这个浏览器内嵌在云音乐桌面应用内。我们云音乐前端技术团队负责开发这个 HTML 页面，需要在这个页面中使用 JavaScript 相关技术绘制界面，并控制这个页面的交互。播放器、桌面歌词等内容则采用原生技术开发，并在 JS 中注入接口，以供前端调用。\n\n我们需要在这个单一的页面中，为用户提供桌面应用级的体验。在现有的方案中，我们也遇到一些应用体验不佳、开发效率低的问题。在最近一年里，我们也在寻找一些更好的解决方案，期望做得比以前更好。我们调研了一些解决方案，最终决定引入 RxJs，设计一套全新的数据层。\n\n本文会以云音乐桌面端的场景为例，先介绍为了实现桌面应用级的体验，我们的目标是什么，再看看过去我们为了这些目标面临了哪些挑战，最后谈到我们目前在做的，使用 RxJs 应对这些挑战的一些探索。\n\n<!-- truncate -->\n\n## 我们的目标\n\n### 单页\n\n首先，作为一个桌面端应用主界面的构成，任何交互操作中不能出现空白的画面；数据层的数据也需要持续保留，因此这必须是一个单页页面。\n\n### 本地缓存\n\n例如在歌单场景中，需要一套缓存机制，保存歌单中歌曲的基本信息，以便在播放歌曲、下载歌曲时，避免重复向服务端请求歌曲的详情数据。特别是一些歌单，歌曲数量可以多达一万首，这套机制尤为重要。\n\n### 持久化\n\n最基本的，例如需要对播放列表进行存储，以便用户在下次打开云音乐时还能继续使用上次关闭前的播放列表。\n\n若想继续提升用户体验，对于用户创建的歌单，作为用户高频访问的内容，也需要进行持久化的存储，从而提升歌单的访问速度，以减少用户的等待时间。\n\n### 内存管理\n\n常规的 web 应用或许不需要考虑这方面的问题。但是，作为桌面端应用，当用户一直未关闭应用，并访问了几百上千个页面，如果不进行内存管理，这些页面缓存的数据，一直存放着，那么此处应用程序也许会发生崩溃。我们需要尽量完美的内存控制，以保持我们作为桌面应用的稳定性，当然这很难。\n\n![image](https://p1.music.126.net/zVyN-jEv9aMNUceYnTDvIA==/109951164353284246.png)\n\n## 代码层面上的挑战\n\n### 关联数据的处理\n\n![image](https://p1.music.126.net/FyX_MlwrEEsi5stgqXHQxg==/109951164353006800.jpg)\n\n以首页的推荐歌单为例，这是一个有序列表，列表中存放的是各个歌单数据。\n\n直接使用下方这样的树状结构进行存放，展示起来很方便。\n\n```js\nlist = [{\n    'id': 54321,\n    'name': '[华语私人订制] 你爱的华语好歌都在这儿',\n    'copywriter': '编辑推荐：无论新歌老歌，都是耐听的华语好歌',\n    'playCount': 23298238,\n    'trackCount': 35,\n    'coverImgUrl': 'https://p3.music.126.net/KEBE7CU-y2lInkHBcgzpUA==/109951164173101961.jpg'\n}, {\n    'id': 1234,\n    'name': '[一周原创发现] 上周原创君发现的好歌',\n    'copywriter': '编辑推荐： 遇见全新面孔，邂逅熟悉声线',\n    'playCount': 11565127,\n    'trackCount': 30,\n    'coverImgUrl': 'https://p3.music.126.net/09o_XZbuG0TFWnNGAKuV5w==/109951164321476771.jpg'\n},\n    ...\n];\n```\n\n但是如果其中有一些歌单，同时是当前用户创建的歌单，按上面这个方法又存放了一份歌单数据。当用户修改这个歌单时，如何确保两份歌单数据都能得到更新？\n\n有一种方法是，使用 map 的结构，`id` 为 `key`，数据为 `value`。不同列表中对这个歌单的数据，都是对 map 中这个歌单的引用。也就是对同一个数据项，做了多重索引。\n\n```js\nplaylistMap = {};\nplaylistMap[54321] = {\n    'id': 54321,\n    'name': '[华语私人订制] 你爱的华语好歌都在这儿',\n    'copywriter': '编辑推荐：无论新歌老歌，都是耐听的华语好歌',\n    'playCount': 23298238,\n    'trackCount': 35,\n    'coverImgUrl': 'https://p3.music.126.net/KEBE7CU-y2lInkHBcgzpUA==/109951164173101961.jpg'\n};\nplaylistMap[1234] = {\n    'id': 1234,\n    'name': '[一周原创发现] 上周原创君发现的好歌',\n    'copywriter': '编辑推荐： 遇见全新面孔，邂逅熟悉声线',\n    'playCount': 11565127,\n    'trackCount': 30,\n    'coverImgUrl': 'https://p3.music.126.net/09o_XZbuG0TFWnNGAKuV5w==/109951164321476771.jpg'\n};\nlist = [playlistMap[54321], playlistMap[1234]];\n```\n\n这样对视图来说，依然是树状结构，当若修改了 map 或者 list 里面的某个数据，另外几处也会得到修改，因为完全是相同的引用。\n\n但要想让视图层关联的内容刷新，你需要再加一套事件机制，提示视图去刷新。发布事件，视图层订阅事件，两者缺一不可。\n\n在实际的场景中，情况会更复杂。例如歌单里面嵌套了创作者、歌曲列表这样的数据，歌曲列表有序存放着歌曲，单个歌曲则可以嵌套多个歌手，嵌套专辑数据。在歌单详情页中，这些数据均需要展示。\n\n如果使用 React + Redux 这样的方案，基于不可变数据的原则，这种方式就不适用了。我们修改了一个数据项，需要复制一个新的对象，所有引用到这个数据项的地方都要用新的对象去替换，这是非常繁琐的。\n\n因此有一些方案中，提出对数据保持扁平，遇到这种层层嵌套的数据，进行范式化处理。前面提到的这种引用，我们改为存储 `id` 来描述引用关系。这样数据项只在一个地方定义，当其需要更新的话无需在多处改变。这是个不错的想法，但这不能解决数据更新后视图同步刷新的问题。你需要在多个 reducer 中处理这些数据，有些繁琐，代码也不是特别清晰。\n\n### 关联的计算\n\n如果我们说，关联的数据指的是数据间能够用引用关系去描述关联。那么实际上还有一种关联。例如，用户的会员状态，与一首歌曲，表面上并没有引用关系，但隐藏的情况是：歌曲中会有一些内容用来描述用户对这个歌曲拥有的权限，例如能否播放这个歌曲，而有一些歌曲是仅限会员播放的。当用户的会员状态变化时，需要把歌曲权限更新到最新状态。\n\n其实这代表了一种情况，某个事件发生了，需要推动一系列数据去变更，或者说需要对其他的一系列数据做一次新的计算。`a = b + c`，b 或 c 变化的时候需要重新计算 a。传统的做法，是 b 发生变化，通知 a 模块，a 需要监听到这条消息，重新去获取 b 和 c 的值，从而重新计算。c 发生变化，亦是如此。其缺点就是比较麻烦，可读性也不强。\n\n当然有更复杂的情况，比如在 `a = b + c` 中，希望 b 和 c 均在经历一次变动过后，才重新计算 a。此时就需要写另外一段代码来处理这个问题了。\n\n### 逻辑复杂\n\n查询同一种数据，可能从缓存中获取，那是同步的。如果是 Fetch 请求，那是异步的，业务代码编写需要考虑两种情况。大致的代码如下：\n```js\nconst data = getItemInCache();\nif (data) {\n    render();\n} else {\n    getItem();\n}\n\non('itemGet', () => {\n    render();\n});\n```\n如果按照获取数据的来源分类，Fetch 请求，DB，LocalStorage，获取文件缓存，这些都是拉的操作，也就是获取数据的操作。WebSocket，用户的输入，则是推的操作，是数据的更新通知。他们的代码是这样的：\n```js\n// 拉\ngetSomething().then(() => {\n    // do\n});\n\n// 推\non('somethingPush', () => {\n    // do\n});\n```\n有时对同一种数据进行更新，但是因为推和拉不同的来源，需要两份代码，加大了代码编写的复杂度。\n\n对于这类问题，有如下大致的解决方式：\n```js\nconst changeTodo = todo => {\n    dispatch({type: 'updateTodo', payload: todo});\n}\n\nconst changefromDOMEvent = () => {\n    const todo = formState\n    changeTodo(todo);\n}\n\nconst changefromWebSocket = () => {\n    const todo = fromWS\n    changeTodo(todo);\n}\n```\n但是这种方式还有个问题，我们没法清楚地看到一条数据的来龙去脉。此外，事件的发布与订阅者，经常位于不同的模块中，需要封装良好的自定义事件，以便事件的订阅者分辨事情的来源，以及它需要去做什么。\n\n### 内存管理\n\n这个事情很棘手。在目前版本的云音乐桌面端中，我们没有找到有效的办法去管理，只能设置定时器，手动去寻找一些可能无用的缓存数据，然后去清理他们。\n\n## 我们的应对\n\n首先需要说明的是，以下内容是我们目前在做的，利用 RxJs 解决这些问题的一些探索。离这些内容正式上线还有一段路要走。如果读者对这些方案存在疑问，欢迎与我们交流。\n\n假设读者已经对 RxJs 有一些简单的了解（学习 RxJs 相关内容可以移步到[官网](https://rxjs-dev.firebaseapp.com/guide/overview)）。比如说，对于上面 `a = b + c` 这个问题，你需要知道 RxJs 里可以这样做：\n```js\nconst b$ = new Rx.Subject();\nconst c$ = new Rx.Subject();\nconst a$ = b$.combineLatest(c$, (b, c) => b + c);\na$.subscribe(c => console.log(`a=${a}`));\nb$.next(1);\nc$.next(1);\n// a=2\nc$.next(2);\n// a=3\nb$.next(10);\n// a=12\n```\n\n我们看看 RxJs 为我们带来了什么。\n\n### RxJs 处理复杂的逻辑\n\n对于查询一份数据遇到的同步与异步两种情况，我们可以做如下的事情：\n```js\nconst data$ = () => {\n    if (cache) {\n        return Rx.of(cache);\n    } else {\n        return Rx.fromPromise(fetch(url));\n    }\n}\ndata$.subscribe(data => {\n    // do\n})；\n```\n可以看到，我们查询这份数据，优先读取缓存，这是同步的操作；如果缓存无效，进行了一次异步获取数据的操作。视图层只需要执行一次对数据的订阅即可。\n\n接下来处理数据多种来源中推与拉两种不同方式的问题。\n\n首先，RxJs 支持将所有内容封装为数据流。无论是 Fetch 请求，DB，LocalStorage，获取文件缓存的操作，还是 WebSocket，用户输入的事件，统统可以封装成数据流，然后交给视图层去订阅，而不需要在不同数据来源拿到数据后，考虑怎么交给视图层。\n\n```js\nconst dataFromWebSocket$ = Rx.fromEvent(ws, 'message');\n\ndata$.pipe(\n    merge(dataFromWebSocket$)\n).subscribe(data => {\n    // do\n})；\n```\n把推送信息，和主动查询数据的两个流合并起来，供视图去订阅。不管是推还是拉的操作，从代码编写的角度，都是一个拉取的方式。因为我们写出了类似表达式的效果，一个数据流可以由其他数据流通过多种运算符来组合、转换得到。形似 `a = b + c`。但其实际表达的意思，却是\n```js\non('b changed', (newB) => {\n    a = newB + c;\n    // dispatch event\n});\non('c changed', (newC) => {\n    a = b + newC;\n    // dispatch event\n});\n```\n也就是其实是一个推送的过程。\n\n视图层只需要去订阅数据流，而不需要考虑数据要怎么获取，数据到时候是怎么推送过来的，视图层只要专注于自己的逻辑就可以了。\n\n此外，不管是多么复杂的逻辑，都能在 RxJs 中找到合适的操作运算符，由最基础的数据流组合、转换得到复杂的数据流供视图去订阅。例如之前提到的，在 `a = b + c` 中，希望 b 和 c 均在经历一次变动过后，才重新计算 a，我们就可以使用如下的操作符。\n\n==TODO==\n\n总结一下，我们以推荐歌单页面为例，看看其中视图与数据流大致的设计思路。\n\n当用户访问了推荐歌单页面，视图中会执行对获取推荐歌单这条数据流的订阅。此时，这条数据流开始流动。因为是第一次获取推荐歌单，我们还没有缓存这一部分的数据，我们去发送 Fetch 请求，Fetch 请求得到的数据，在经过一些格式化操作后，会存放为缓存。但是，我们最后提供给视图订阅的，并不是这条格式化后的数据，而是经过包装的一条新的数据流，这条数据流是在格式化的数据基础上，又与其他可能引起这些歌单的数据产生变化的数据流组合而来。\n\n当推荐歌单这一部分数据中，任意歌单数据发生变化，都会引起数据流新的流动，从而去推动视图进行变更。\n\n![image](https://p1.music.126.net/HIVj-3-QHwnlLmoUqlXgtQ==/109951164352912137.png)\n\n另外需要注意，视图只要做一次对数据流的订阅即可，而不需要执行类似 dispatch action 这样的操作。除非是增加、删除、修改这样的操作，也就是从视图层面进行的数据的写入，需要做一个 dispatch action 的操作。这也简化了视图层的一些逻辑，视图不需要关心，第一次数据是怎么来的，需要拉取哪部分的数据。\n\n### 选择懒执行还是预热\n\n从前面就可以看到，视图使用数据，只需要对数据流进行订阅。反过来思考，当视图没有对数据流进行过订阅时，数据流会不会流动呢？以一段代码为例：\n```js\nconst promise = new Promise((resolve) => {\n    console.log('Hello');\n    resolve(1);\n});\n```\n代码运行后会输入 `Hello` 。但换成 RxJs 的 `Observable`：\n\n```js\nconst foo$ = Rx.create((observer) => {\n    console.log('Hello');\n    observer.next(1);\n    observer.next(2);\n    observer.next(3);\n});\n```\n这段代码没有任何输出。\n\n与 Promise 不同，当 `foo$` 未被订阅，内部是未执行的状态，数据流并没有开始流动。\n\n想想这样的好处。首先这是前面提到的，视图层只需要订阅数据流而不需要额外操作的前提。此外，在视图未订阅的情况下，推送类型的数据是不流动的，符合我们的预期，避免了无用的请求和未知的副作用。\n\nRxJS 让我们能够精确执行向确实存在的视图的数据流推送。\n\n当然，如果需要，我们也可以做一些预热的操作，让数据流提前流动。比如预先去 fetch 来获取到数据，等到视图订阅时，能够立刻拿到数据，提升应用程序的响应速度。使用诸如 `publish` 和 `connect` 的操作符就可以预热。这里不再详细阐述。\n```js\nconst source = Rx.interval(1000);\nconst example = source.pipe(\n    publish()\n);\nexample.connect();\n```\n\n### 不需要集中的数据管理\n\nRedux 为什么是单一 Store。其中一个原因是需要从整体的 state 结构上检出变化的部分。\n\n但 RxJs 不需要，变更过程是精确的。数据从数据管道一直流动到视图上，而没有变化的部分就不会流动。\n\n至于别的原因，例如方便同构应用开发，方便实现撤销/重做功能。在我们的云音乐桌面端场景上也没有这种需要。\n\n因此，我们可以按业务划分 module 。且每个 module 中向视图暴露的其实也是一条一条数据流，你可以去订阅这些数据流。例如获取推荐歌单的数据推送，这就是歌单这个 module 中提供的一条数据流，而它由其他多个数据流组合而成。\n\n如果是单一 Store，我们需要指定 action 去修改 state，需要区分这个 action 修改的是 state 内的具体哪个部分。\n\n而实际的情况是，在多个 module 中，大部分的数据是不需要跨域 module 处理的，我们关心数据在单个 module 中的流动即可；少部分情况下我们用 RxJs 的操作运算符进行组合、转换等也可以完成不同 module 间的关联数据计算。在数据流的组合操作中，天然地表明了数据流动的姿态，无需 action 来标记修改的部分。\n\n### 数据管理的详细设计\n\n前面介绍了那么多 RxJs 的好处，并说明了数据从顶部到视图层的大致流向，接下来我们需要设计，如何利用 RxJs 存放数据，并提供优质的数据流供视图订阅。\n\n对于复杂的、嵌套的数据，我们考虑做一些范式化的操作。我们存储的是扁平的数据，通过对id的存储来描述不同类型的数据的引用关系。\n\n例如歌单项的存放，一个歌单的数据看上去是这样的：\n```js\nconst playlistItem = {\n    name: 'xxx',\n    id: '123',\n    cloudTrackCount: 0,\n    commentCount: 123,\n    creator: {\n        id: '1',\n        name: 'aaa'\n    },\n    ...\n    trackCount: 2,\n    trackIds: ['12345', '14567'],\n    tracks: [{\n        id: '12345',\n        name: 'abcde',\n        ...\n    }, {\n        id: '14567',\n        name: 'adefg',\n        ...\n    }]\n};\n```\n我们需要对其进行范式化处理，例如使用 `creatorId` 来描述关联的是哪个用户。关联的用户数据，则作为单独的数据项存放。处理后的歌单数据是这样的：\n```js\nconst playlistItem = {\n    name: 'xxx',\n    id: '123',\n    cloudTrackCount: 0,\n    commentCount: 123,\n    creatorId: '1',\n    ...\n    trackCount: 2\n};\nconst creatorItem = {\n    id: '1',\n    name: 'aaa'\n};\nconst trackList = {\n    id: 'playlist-123',\n    list: ['12345', '14567']\n};\nconst trackItem1 = {\n    id: '12345',\n    name: 'abcde',\n    ...\n};\nconst trackItem2 = {\n    id: '14567',\n    name: 'adefg',\n    ...\n};\n```\n根据实际业务中遇到的各种场景，我们总结了常见的数据关联方式，从而提出范式化处理中的一些约定：\n\n- 不同类型的数据声明不同的容器。同一类型的数据存放在同一种容器的实例中。这一类型的数据可以作为一个 entity 来看待；\n\n- 将同类型的 entity 存储在 Collection 集合中，其中每个 entity 的主键 `primary` 作为 `key`，entity本身作为 `value`；\n\n- 任何对单个 entity 的引用都应该根据存储的 `primary` 来表示。需要使用时，从 Collection 中查询获取；\n\n- 针对例如歌单中的歌曲列表这样的有序列表，再定义一个List 容器，实例化的 `list` 中应该存储 entity 的 `primary` 来引用他们。将 `list` 也存储在 Collection 集合中便于之后查找。\n\n在声明某一类型的容器时，我们可以使用诸如 JSON Schema 的方式来描述数据的格式，以便于进行数据校验、格式化，持久化等工作。额外添加一些属性，用数据流描述对其他类型数据的关联。\n\n声明完这些内容后，接下来的使用就方便了。在容器的实例中，对其中任意属性进行修改，都会因为数据流的存在，流动到被其依赖的数据项中，进行同步的更新，并最终流动到视图中，视图需要什么数据项就订阅什么数据项，数据项更新的时候，或者关联的数据更新的时候，均会自动流动到视图上。\n\n实际使用时，我们会涉及到向 Collection 查找符合条件的 entity；在 List 中 `slice()` 取到列表的一部分内容，以满足视图中分页的场景；针对某个 entity 订阅其中一部分属性的变化。我们使用 RxJs 的操作符实现一些自定义的方法即可。\n\n根据以上思路，得到的设计方案大致是这样的：\n\n![image](http://p1.music.126.net/eclTgAaADkT0j9qvoiMxiQ==/109951164352510560)\n\n以歌曲为例说明这套方案的使用方式，首先声明数据格式：\n```js\nclass Track extends BaseStore {\n    static schema = {\n        type: 'object',\n        properties: {\n            name: {\n                type: 'string',\n                default: ''\n            },\n            id: {\n                type: 'string',\n                primary: true\n            },\n            artistId: {\n                type: 'string'\n            }\n        },\n        required: ['id']\n    }\n\n    static views = {\n        get artist() {\n            return this.artistId$.pipe(\n                switchMap(id => (id\n                    ? ArtistStore.findOne(id).$.pipe(\n                        map(([item]) => (item\n                            ? item.data\n                            : null))\n                    )\n                    : Rx.of()))\n            );\n        }\n    }\n}\n\nclass TrackCollection extends CollectionStore {\n    static entity = Track\n}\nconst trackCollection = new TrackCollection();\n```\n\n注意 `Track.views` 的逻辑，这里的思路是，通过 `views` 方法表明对关联的 `artist` 数据的依赖。\n\n`artistId$` 表示订阅歌曲中 `artist` 数据的变动。这种只想订阅数据项中某个属性的变动，最简单的实现方式，就是使用 `distinctUntilKeyChanged` 操作符。\n\n> 返回 Observable，它发出源 Observable 发出的所有与前一项不相同的项，使用通过提供的 key 访问到的属性来检查两个项是否不同。\n\n通过这种方法，我们将不再需要类似 [reselect](https://github.com/reduxjs/reselect) 这样的工具。\n\n\n考虑使用诸如 `trackCollection.findOne(id).views('artist').$` 方法来订阅某个歌曲数据，使歌曲本身的变化，以及歌曲对应的 `artist` 艺人数据变化时，均能得到新的数据流动。也就是查找到的歌曲数据本身和 `views` 指定的 `artist` 查询的数据流，会合并得到新的数据流。\n这里可以使用 RxJs 的 `combineLatest` 操作符来实现具体的逻辑。\n\n> combineLatest 结合所有输入 Observable 参数的值. 顺序订阅每个 Observable，每当任一输入 Observable 发出，收集每个输入 Observable 的最新值组成一个数组。\n\n```js\nif (views && views.length) {\n    return Rx.combineLatest(\n        x.all$,\n        ...views.map(v => x.views[`${v}$`]).filter(Boolean)\n    );\n}\n```\n\n其中 `x` 是查询到的 entity，`x.all$` 代表了 entity 本身的数据变动，`x.views` 中以 `$` 为后缀的属性则代表了具体某个 view 属性，数据变动产生的数据流。\n\n类似的方式，考虑在 List 中添加 `itemViews` 相关的逻辑。\n\n```js\nclass TrackList extends ListStore {\n    static schema = {\n        type: 'object',\n        properties: {\n            id: {\n                type: 'string',\n                primary: true\n            },\n            list: {\n                type: 'array',\n                items: {\n                    type: 'string'\n                }\n            },\n            total: {\n                type: 'number'\n            }\n        }\n    }\n\n    static itemViews = {\n        items(id) {\n            return trackCollection\n                .findOne(id).views('artist')\n                .$.pipe(\n                    map(([item]) => item)\n                );\n        }\n    }\n}\n\nclass TrackListCollection extends CollectionStore {\n    static entity = TrackListStore\n}\n\nconst trackListCollection = new TrackListCollection();\n```\n随后我们可以往 `trackListCollection` 插入数据，而对其数据的订阅，则可以有类似这样的操作：\n```js\ntrackListCollection.findOne('newsong').exec().then(([result]) => {\n    result.join().views('items').$.subscribe(\n        data => data.items.forEach(i => render({ ...i.data, ...i.views }))\n    )\n});\n```\n\n通过这样的方法，可以获取到某个歌曲列表，并在任意歌曲和他们的歌手数据变动时，均有数据流动，得到最新的数据。实现思想与 `findOne().$` 基本一致，此处不再阐述。\n\n### 内存管理\n\n因为对于数据，均是通过对数据流进行订阅来获取的。当切换页面的时候，视图层会执行对某些数据流取消订阅的操作，同时也会影响关联的数据流的订阅状态。如图所示，灰色歌曲被视图取消订阅，关联的专辑或歌手数据流也能分析出是否继续被订阅：\n\n![image](https://p1.music.126.net/EagkhHTLRP7mYzoTGyLOAw==/109951164353281694.png)\n\n因此，对任意数据流来说，是否被订阅，可以表明视图是否在使用它。当某些数据有很长一段时间没有被订阅时，就考虑删除操作以回收内存。\n\n我们可以开设一个定时器，去找已经取消订阅，且取消订阅时间最长的数据流，优先回收它，使缓存的数据稳定在一个能被接受的内存大小。\n\n不过RxJs并没有直接提供获取到某个数据流的订阅数这样的方法，需要自己去实现一下。这是主要的思路：\n```js\nnew$ = Rx.Observable.create((subscriber) => {\n    const subscription = old$.subscribe(subscriber);\n    counter++;\n    return () => {\n        subscription.unsubscribe();\n        counter--;\n    };\n});\n```\n这里对数据流再做了一次封装，`counter` 记录了实际订阅的个数。如果 `counter` 为0，你就可以考虑清除它。\n\n### 还需要 Redux 吗？\n\n有一些解决方案，例如 redux-observable，Ngrx，都将 RxJs 与 Redux 结合在一起使用，他们结合得很好。\n\n但如果将 RxJs 仅是作为 Redux 的异步解决方案，而让视图层仍然与 Redux 接触，那其实前面说到的， RxJs 为我们带来的数据订阅，懒执行、无需单一 Store这样的特性其实就很难利用了。\n\n何况[通过 Rx 重新实现 Redux](https://github.com/jas-chen/rx-redux) 并不难。\n\n因此，我们完全有理由不使用 Redux。\n\n### 搭配 React\n\n如果不考虑使用 Redux，直接在 React 中订阅 RxJs 的数据流。如果你了解过 React-Hooks，可以使用 [React hooks for RxJS](https://github.com/LeetCode-OpenSource/rxjs-hooks)  这套方案。\n\n如果使用 React-Hooks 的方案，其底层实际使用的是 `useState` 方法，需要注意的是，这个 state 需要遵循不可变数据原则，如果对state对象进行了直接修改并返回同一对象，而不是复制数据，然后更新数据副本，`useState` 无效，React 会认为没有变化。因此，如果视图订阅的是单个数据项，可以将数据项另外存放在不可变的数组或者对象中，再提供给视图。\n\n如果坚持使用高阶组件的方式，实现一个 `connect()` 方法连接 React 与 RxJs 也不是什么难事。\n\n如果考虑在 React 中进行性能优化，这里提供两种选择：\n\n1. 对于单个数据流中，数据流动时，也需要遵循不可变数据原则，对于数据变换的部分，创建新的对象或者数组，以便于使用 `memo()` 进行浅层的判等检查，从而提升性能。\n\n    我们使用 RxJs 就是为了让变化的数据通过数据流流动，而不变化的数据不流动。结果到了 React 这里，我们却仍然需要关注不可变数据，是有那么一点点不太舒服。\n\n    但是好在我们做了范式化处理，数据项往往已经足够扁平，复制数据的操作并不会很繁琐。再加上 schema 这样的数据格式约定，完全可以自动完成这项操作，比如在更新数据的方法 `Store.prototype.upsert()` 中处理。\n\n2. 对提供给 React 订阅的数据流进行拆分。数据流中流动的数据，如果存储的是多层嵌套的数据，可以将被嵌套的数据也以数据流的形式提供给视图。例如，对于歌单，嵌套了歌曲列表的数据。视图 `<Playlist />` 订阅了数据流 `playlist$`，`playlist$` 中流动是歌单数据，其中以有序列表的形式嵌套了流动着歌曲类型的数据流 `track1$` - `trackN$`。由视图中的子组件 `<TrackItem />` 负责对其进行订阅。\n\n    ```js\n    const Playlist = () => {\n        const { payload = {} } = useObservable(() => playlist$);\n        const { views } = payload;\n        return (\n            <Name>{ payload.name }</Name>\n            <TrackList>\n                {\n                    views.tracks.map(track => <TrackItem track$={track.$} key={track.id} />)\n                }\n            </TrackList>\n        );\n    };\n\n    const TrackItem = ({ track$ }) => {\n        const data = useObservable(() => track$);\n        return (\n            <Name>{ data.name }</Name>\n        );\n    };\n    ```\n\n    这样可以一直分形下去，让每一级组件负责订阅自己所需的数据流。这样，`<Playlist />` 不再订阅歌曲项的数据流动，歌曲项的变化不会引起歌单自身区域的重新计算。但带来的问题是，每一级组件上都被数据流侵入，都出现了数据处理的逻辑，组件的 `props` 基本上仅剩下了一个数据流。视图层将不再轻量，所有组件需要基于数据流的思想进行改造，无法与其他基于 Redux 等框架的数据方案共用相同的组件。\n\n可以根据实际情况选择合适的方式，或者选择结合两种方式。\n\n## 总结\n\n- 万物皆可数据流\n- 多种方法组合数据流，直观描述数据计算、组合的逻辑\n- 订阅触发数据流动\n- 取消订阅考虑回收\n\n## 参考资料\n[复杂单页应用的数据层设计](https://zhuanlan.zhihu.com/p/24677176)\n\n[DaoCloud 基于 RxJS 的前端数据层实践](https://zhuanlan.zhihu.com/p/28958042)\n\n[像呼吸一样自然：React hooks + RxJS](https://zhuanlan.zhihu.com/p/50921147)"
+        },
+        {
+          "id": "hot-vs-cold-observables",
+          "metadata": {
+            "permalink": "/hot-vs-cold-observables",
+            "source": "@site/blog/hot-vs-cold-observables/index.md",
+            "title": "Observable的冷与热",
+            "description": "本文翻译自Hot vs Cold Observables",
+            "date": "2019-11-01T10:00:00.000Z",
+            "formattedDate": "2019年11月1日",
+            "tags": [
+              {
+                "label": "rxjs",
+                "permalink": "/tags/rxjs"
+              },
+              {
+                "label": "javascript",
+                "permalink": "/tags/javascript"
+              }
+            ],
+            "readingTime": 9.82,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Auver",
+                "title": "全干工程师",
+                "url": "https://github.com/auver",
+                "imageURL": "https://github.com/auver.png",
+                "key": "auver"
+              }
+            ],
+            "frontMatter": {
+              "slug": "hot-vs-cold-observables",
+              "title": "Observable的冷与热",
+              "authors": "auver",
+              "date": "2019-11-01T10:00",
+              "tags": [
+                "rxjs",
+                "javascript"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "云音乐桌面端基于 RxJs 的数据层探索",
+              "permalink": "/rxjs-on-the-netease-cloud-music-desktop"
+            },
+            "nextItem": {
               "title": "巧用CSS遮罩",
               "permalink": "/css-mask"
             }
           },
-          "content": "## 前言\n\n网易云音乐 PC/MAC/Linux 这三大桌面端，均采用了在原生应用中嵌入前端页面的方式。\n\n通俗地说，就是将一个本地的 HTML 页面在浏览器中打开，但这个浏览器内嵌在云音乐桌面应用内。我们云音乐前端技术团队负责开发这个 HTML 页面，需要在这个页面中使用 JavaScript 相关技术绘制界面，并控制这个页面的交互。播放器、桌面歌词等内容则采用原生技术开发，并在 JS 中注入接口，以供前端调用。\n\n我们需要在这个单一的页面中，为用户提供桌面应用级的体验。在现有的方案中，我们也遇到一些应用体验不佳、开发效率低的问题。在最近一年里，我们也在寻找一些更好的解决方案，期望做得比以前更好。我们调研了一些解决方案，最终决定引入 RxJs，设计一套全新的数据层。\n\n本文会以云音乐桌面端的场景为例，先介绍为了实现桌面应用级的体验，我们的目标是什么，再看看过去我们为了这些目标面临了哪些挑战，最后谈到我们目前在做的，使用 RxJs 应对这些挑战的一些探索。\n\n<!-- truncate -->\n\n## 我们的目标\n\n### 单页\n\n首先，作为一个桌面端应用主界面的构成，任何交互操作中不能出现空白的画面；数据层的数据也需要持续保留，因此这必须是一个单页页面。\n\n### 本地缓存\n\n例如在歌单场景中，需要一套缓存机制，保存歌单中歌曲的基本信息，以便在播放歌曲、下载歌曲时，避免重复向服务端请求歌曲的详情数据。特别是一些歌单，歌曲数量可以多达一万首，这套机制尤为重要。\n\n### 持久化\n\n最基本的，例如需要对播放列表进行存储，以便用户在下次打开云音乐时还能继续使用上次关闭前的播放列表。\n\n若想继续提升用户体验，对于用户创建的歌单，作为用户高频访问的内容，也需要进行持久化的存储，从而提升歌单的访问速度，以减少用户的等待时间。\n\n### 内存管理\n\n常规的 web 应用或许不需要考虑这方面的问题。但是，作为桌面端应用，当用户一直未关闭应用，并访问了几百上千个页面，如果不进行内存管理，这些页面缓存的数据，一直存放着，那么此处应用程序也许会发生崩溃。我们需要尽量完美的内存控制，以保持我们作为桌面应用的稳定性，当然这很难。\n\n![image](https://p1.music.126.net/zVyN-jEv9aMNUceYnTDvIA==/109951164353284246.png)\n\n## 代码层面上的挑战\n\n### 关联数据的处理\n\n![image](https://p1.music.126.net/FyX_MlwrEEsi5stgqXHQxg==/109951164353006800.jpg)\n\n以首页的推荐歌单为例，这是一个有序列表，列表中存放的是各个歌单数据。\n\n直接使用下方这样的树状结构进行存放，展示起来很方便。\n\n```js\nlist = [{\n    'id': 54321,\n    'name': '[华语私人订制] 你爱的华语好歌都在这儿',\n    'copywriter': '编辑推荐：无论新歌老歌，都是耐听的华语好歌',\n    'playCount': 23298238,\n    'trackCount': 35,\n    'coverImgUrl': 'https://p3.music.126.net/KEBE7CU-y2lInkHBcgzpUA==/109951164173101961.jpg'\n}, {\n    'id': 1234,\n    'name': '[一周原创发现] 上周原创君发现的好歌',\n    'copywriter': '编辑推荐： 遇见全新面孔，邂逅熟悉声线',\n    'playCount': 11565127,\n    'trackCount': 30,\n    'coverImgUrl': 'https://p3.music.126.net/09o_XZbuG0TFWnNGAKuV5w==/109951164321476771.jpg'\n},\n    ...\n];\n```\n\n但是如果其中有一些歌单，同时是当前用户创建的歌单，按上面这个方法又存放了一份歌单数据。当用户修改这个歌单时，如何确保两份歌单数据都能得到更新？\n\n有一种方法是，使用 map 的结构，`id` 为 `key`，数据为 `value`。不同列表中对这个歌单的数据，都是对 map 中这个歌单的引用。也就是对同一个数据项，做了多重索引。\n\n```js\nplaylistMap = {};\nplaylistMap[54321] = {\n    'id': 54321,\n    'name': '[华语私人订制] 你爱的华语好歌都在这儿',\n    'copywriter': '编辑推荐：无论新歌老歌，都是耐听的华语好歌',\n    'playCount': 23298238,\n    'trackCount': 35,\n    'coverImgUrl': 'https://p3.music.126.net/KEBE7CU-y2lInkHBcgzpUA==/109951164173101961.jpg'\n};\nplaylistMap[1234] = {\n    'id': 1234,\n    'name': '[一周原创发现] 上周原创君发现的好歌',\n    'copywriter': '编辑推荐： 遇见全新面孔，邂逅熟悉声线',\n    'playCount': 11565127,\n    'trackCount': 30,\n    'coverImgUrl': 'https://p3.music.126.net/09o_XZbuG0TFWnNGAKuV5w==/109951164321476771.jpg'\n};\nlist = [playlistMap[54321], playlistMap[1234]];\n```\n\n这样对视图来说，依然是树状结构，当若修改了 map 或者 list 里面的某个数据，另外几处也会得到修改，因为完全是相同的引用。\n\n但要想让视图层关联的内容刷新，你需要再加一套事件机制，提示视图去刷新。发布事件，视图层订阅事件，两者缺一不可。\n\n在实际的场景中，情况会更复杂。例如歌单里面嵌套了创作者、歌曲列表这样的数据，歌曲列表有序存放着歌曲，单个歌曲则可以嵌套多个歌手，嵌套专辑数据。在歌单详情页中，这些数据均需要展示。\n\n如果使用 React + Redux 这样的方案，基于不可变数据的原则，这种方式就不适用了。我们修改了一个数据项，需要复制一个新的对象，所有引用到这个数据项的地方都要用新的对象去替换，这是非常繁琐的。\n\n因此有一些方案中，提出对数据保持扁平，遇到这种层层嵌套的数据，进行范式化处理。前面提到的这种引用，我们改为存储 `id` 来描述引用关系。这样数据项只在一个地方定义，当其需要更新的话无需在多处改变。这是个不错的想法，但这不能解决数据更新后视图同步刷新的问题。你需要在多个 reducer 中处理这些数据，有些繁琐，代码也不是特别清晰。\n\n### 关联的计算\n\n如果我们说，关联的数据指的是数据间能够用引用关系去描述关联。那么实际上还有一种关联。例如，用户的会员状态，与一首歌曲，表面上并没有引用关系，但隐藏的情况是：歌曲中会有一些内容用来描述用户对这个歌曲拥有的权限，例如能否播放这个歌曲，而有一些歌曲是仅限会员播放的。当用户的会员状态变化时，需要把歌曲权限更新到最新状态。\n\n其实这代表了一种情况，某个事件发生了，需要推动一系列数据去变更，或者说需要对其他的一系列数据做一次新的计算。`a = b + c`，b 或 c 变化的时候需要重新计算 a。传统的做法，是 b 发生变化，通知 a 模块，a 需要监听到这条消息，重新去获取 b 和 c 的值，从而重新计算。c 发生变化，亦是如此。其缺点就是比较麻烦，可读性也不强。\n\n当然有更复杂的情况，比如在 `a = b + c` 中，希望 b 和 c 均在经历一次变动过后，才重新计算 a。此时就需要写另外一段代码来处理这个问题了。\n\n### 逻辑复杂\n\n查询同一种数据，可能从缓存中获取，那是同步的。如果是 Fetch 请求，那是异步的，业务代码编写需要考虑两种情况。大致的代码如下：\n```js\nconst data = getItemInCache();\nif (data) {\n    render();\n} else {\n    getItem();\n}\n\non('itemGet', () => {\n    render();\n});\n```\n如果按照获取数据的来源分类，Fetch 请求，DB，LocalStorage，获取文件缓存，这些都是拉的操作，也就是获取数据的操作。WebSocket，用户的输入，则是推的操作，是数据的更新通知。他们的代码是这样的：\n```js\n// 拉\ngetSomething().then(() => {\n    // do\n});\n\n// 推\non('somethingPush', () => {\n    // do\n});\n```\n有时对同一种数据进行更新，但是因为推和拉不同的来源，需要两份代码，加大了代码编写的复杂度。\n\n对于这类问题，有如下大致的解决方式：\n```js\nconst changeTodo = todo => {\n    dispatch({type: 'updateTodo', payload: todo});\n}\n\nconst changefromDOMEvent = () => {\n    const todo = formState\n    changeTodo(todo);\n}\n\nconst changefromWebSocket = () => {\n    const todo = fromWS\n    changeTodo(todo);\n}\n```\n但是这种方式还有个问题，我们没法清楚地看到一条数据的来龙去脉。此外，事件的发布与订阅者，经常位于不同的模块中，需要封装良好的自定义事件，以便事件的订阅者分辨事情的来源，以及它需要去做什么。\n\n### 内存管理\n\n这个事情很棘手。在目前版本的云音乐桌面端中，我们没有找到有效的办法去管理，只能设置定时器，手动去寻找一些可能无用的缓存数据，然后去清理他们。\n\n## 我们的应对\n\n首先需要说明的是，以下内容是我们目前在做的，利用 RxJs 解决这些问题的一些探索。离这些内容正式上线还有一段路要走。如果读者对这些方案存在疑问，欢迎与我们交流。\n\n假设读者已经对 RxJs 有一些简单的了解（学习 RxJs 相关内容可以移步到[官网](https://rxjs-dev.firebaseapp.com/guide/overview)）。比如说，对于上面 `a = b + c` 这个问题，你需要知道 RxJs 里可以这样做：\n```js\nconst b$ = new Rx.Subject();\nconst c$ = new Rx.Subject();\nconst a$ = b$.combineLatest(c$, (b, c) => b + c);\na$.subscribe(c => console.log(`a=${a}`));\nb$.next(1);\nc$.next(1);\n// a=2\nc$.next(2);\n// a=3\nb$.next(10);\n// a=12\n```\n\n我们看看 RxJs 为我们带来了什么。\n\n### RxJs 处理复杂的逻辑\n\n对于查询一份数据遇到的同步与异步两种情况，我们可以做如下的事情：\n```js\nconst data$ = () => {\n    if (cache) {\n        return Rx.of(cache);\n    } else {\n        return Rx.fromPromise(fetch(url));\n    }\n}\ndata$.subscribe(data => {\n    // do\n})；\n```\n可以看到，我们查询这份数据，优先读取缓存，这是同步的操作；如果缓存无效，进行了一次异步获取数据的操作。视图层只需要执行一次对数据的订阅即可。\n\n接下来处理数据多种来源中推与拉两种不同方式的问题。\n\n首先，RxJs 支持将所有内容封装为数据流。无论是 Fetch 请求，DB，LocalStorage，获取文件缓存的操作，还是 WebSocket，用户输入的事件，统统可以封装成数据流，然后交给视图层去订阅，而不需要在不同数据来源拿到数据后，考虑怎么交给视图层。\n\n```js\nconst dataFromWebSocket$ = Rx.fromEvent(ws, 'message');\n\ndata$.pipe(\n    merge(dataFromWebSocket$)\n).subscribe(data => {\n    // do\n})；\n```\n把推送信息，和主动查询数据的两个流合并起来，供视图去订阅。不管是推还是拉的操作，从代码编写的角度，都是一个拉取的方式。因为我们写出了类似表达式的效果，一个数据流可以由其他数据流通过多种运算符来组合、转换得到。形似 `a = b + c`。但其实际表达的意思，却是\n```js\non('b changed', (newB) => {\n    a = newB + c;\n    // dispatch event\n});\non('c changed', (newC) => {\n    a = b + newC;\n    // dispatch event\n});\n```\n也就是其实是一个推送的过程。\n\n视图层只需要去订阅数据流，而不需要考虑数据要怎么获取，数据到时候是怎么推送过来的，视图层只要专注于自己的逻辑就可以了。\n\n此外，不管是多么复杂的逻辑，都能在 RxJs 中找到合适的操作运算符，由最基础的数据流组合、转换得到复杂的数据流供视图去订阅。例如之前提到的，在 `a = b + c` 中，希望 b 和 c 均在经历一次变动过后，才重新计算 a，我们就可以使用如下的操作符。\n\n==TODO==\n\n总结一下，我们以推荐歌单页面为例，看看其中视图与数据流大致的设计思路。\n\n当用户访问了推荐歌单页面，视图中会执行对获取推荐歌单这条数据流的订阅。此时，这条数据流开始流动。因为是第一次获取推荐歌单，我们还没有缓存这一部分的数据，我们去发送 Fetch 请求，Fetch 请求得到的数据，在经过一些格式化操作后，会存放为缓存。但是，我们最后提供给视图订阅的，并不是这条格式化后的数据，而是经过包装的一条新的数据流，这条数据流是在格式化的数据基础上，又与其他可能引起这些歌单的数据产生变化的数据流组合而来。\n\n当推荐歌单这一部分数据中，任意歌单数据发生变化，都会引起数据流新的流动，从而去推动视图进行变更。\n\n![image](https://p1.music.126.net/HIVj-3-QHwnlLmoUqlXgtQ==/109951164352912137.png)\n\n另外需要注意，视图只要做一次对数据流的订阅即可，而不需要执行类似 dispatch action 这样的操作。除非是增加、删除、修改这样的操作，也就是从视图层面进行的数据的写入，需要做一个 dispatch action 的操作。这也简化了视图层的一些逻辑，视图不需要关心，第一次数据是怎么来的，需要拉取哪部分的数据。\n\n### 选择懒执行还是预热\n\n从前面就可以看到，视图使用数据，只需要对数据流进行订阅。反过来思考，当视图没有对数据流进行过订阅时，数据流会不会流动呢？以一段代码为例：\n```js\nconst promise = new Promise((resolve) => {\n    console.log('Hello');\n    resolve(1);\n});\n```\n代码运行后会输入 `Hello` 。但换成 RxJs 的 `Observable`：\n\n```js\nconst foo$ = Rx.create((observer) => {\n    console.log('Hello');\n    observer.next(1);\n    observer.next(2);\n    observer.next(3);\n});\n```\n这段代码没有任何输出。\n\n与 Promise 不同，当 `foo$` 未被订阅，内部是未执行的状态，数据流并没有开始流动。\n\n想想这样的好处。首先这是前面提到的，视图层只需要订阅数据流而不需要额外操作的前提。此外，在视图未订阅的情况下，推送类型的数据是不流动的，符合我们的预期，避免了无用的请求和未知的副作用。\n\nRxJS 让我们能够精确执行向确实存在的视图的数据流推送。\n\n当然，如果需要，我们也可以做一些预热的操作，让数据流提前流动。比如预先去 fetch 来获取到数据，等到视图订阅时，能够立刻拿到数据，提升应用程序的响应速度。使用诸如 `publish` 和 `connect` 的操作符就可以预热。这里不再详细阐述。\n```js\nconst source = Rx.interval(1000);\nconst example = source.pipe(\n    publish()\n);\nexample.connect();\n```\n\n### 不需要集中的数据管理\n\nRedux 为什么是单一 Store。其中一个原因是需要从整体的 state 结构上检出变化的部分。\n\n但 RxJs 不需要，变更过程是精确的。数据从数据管道一直流动到视图上，而没有变化的部分就不会流动。\n\n至于别的原因，例如方便同构应用开发，方便实现撤销/重做功能。在我们的云音乐桌面端场景上也没有这种需要。\n\n因此，我们可以按业务划分 module 。且每个 module 中向视图暴露的其实也是一条一条数据流，你可以去订阅这些数据流。例如获取推荐歌单的数据推送，这就是歌单这个 module 中提供的一条数据流，而它由其他多个数据流组合而成。\n\n如果是单一 Store，我们需要指定 action 去修改 state，需要区分这个 action 修改的是 state 内的具体哪个部分。\n\n而实际的情况是，在多个 module 中，大部分的数据是不需要跨域 module 处理的，我们关心数据在单个 module 中的流动即可；少部分情况下我们用 RxJs 的操作运算符进行组合、转换等也可以完成不同 module 间的关联数据计算。在数据流的组合操作中，天然地表明了数据流动的姿态，无需 action 来标记修改的部分。\n\n### 数据管理的详细设计\n\n前面介绍了那么多 RxJs 的好处，并说明了数据从顶部到视图层的大致流向，接下来我们需要设计，如何利用 RxJs 存放数据，并提供优质的数据流供视图订阅。\n\n对于复杂的、嵌套的数据，我们考虑做一些范式化的操作。我们存储的是扁平的数据，通过对id的存储来描述不同类型的数据的引用关系。\n\n例如歌单项的存放，一个歌单的数据看上去是这样的：\n```js\nconst playlistItem = {\n    name: 'xxx',\n    id: '123',\n    cloudTrackCount: 0,\n    commentCount: 123,\n    creator: {\n        id: '1',\n        name: 'aaa'\n    },\n    ...\n    trackCount: 2,\n    trackIds: ['12345', '14567'],\n    tracks: [{\n        id: '12345',\n        name: 'abcde',\n        ...\n    }, {\n        id: '14567',\n        name: 'adefg',\n        ...\n    }]\n};\n```\n我们需要对其进行范式化处理，例如使用 `creatorId` 来描述关联的是哪个用户。关联的用户数据，则作为单独的数据项存放。处理后的歌单数据是这样的：\n```js\nconst playlistItem = {\n    name: 'xxx',\n    id: '123',\n    cloudTrackCount: 0,\n    commentCount: 123,\n    creatorId: '1',\n    ...\n    trackCount: 2\n};\nconst creatorItem = {\n    id: '1',\n    name: 'aaa'\n};\nconst trackList = {\n    id: 'playlist-123',\n    list: ['12345', '14567']\n};\nconst trackItem1 = {\n    id: '12345',\n    name: 'abcde',\n    ...\n};\nconst trackItem2 = {\n    id: '14567',\n    name: 'adefg',\n    ...\n};\n```\n根据实际业务中遇到的各种场景，我们总结了常见的数据关联方式，从而提出范式化处理中的一些约定：\n\n- 不同类型的数据声明不同的容器。同一类型的数据存放在同一种容器的实例中。这一类型的数据可以作为一个 entity 来看待；\n\n- 将同类型的 entity 存储在 Collection 集合中，其中每个 entity 的主键 `primary` 作为 `key`，entity本身作为 `value`；\n\n- 任何对单个 entity 的引用都应该根据存储的 `primary` 来表示。需要使用时，从 Collection 中查询获取；\n\n- 针对例如歌单中的歌曲列表这样的有序列表，再定义一个List 容器，实例化的 `list` 中应该存储 entity 的 `primary` 来引用他们。将 `list` 也存储在 Collection 集合中便于之后查找。\n\n在声明某一类型的容器时，我们可以使用诸如 JSON Schema 的方式来描述数据的格式，以便于进行数据校验、格式化，持久化等工作。额外添加一些属性，用数据流描述对其他类型数据的关联。\n\n声明完这些内容后，接下来的使用就方便了。在容器的实例中，对其中任意属性进行修改，都会因为数据流的存在，流动到被其依赖的数据项中，进行同步的更新，并最终流动到视图中，视图需要什么数据项就订阅什么数据项，数据项更新的时候，或者关联的数据更新的时候，均会自动流动到视图上。\n\n实际使用时，我们会涉及到向 Collection 查找符合条件的 entity；在 List 中 `slice()` 取到列表的一部分内容，以满足视图中分页的场景；针对某个 entity 订阅其中一部分属性的变化。我们使用 RxJs 的操作符实现一些自定义的方法即可。\n\n根据以上思路，得到的设计方案大致是这样的：\n\n![image](http://p1.music.126.net/eclTgAaADkT0j9qvoiMxiQ==/109951164352510560)\n\n以歌曲为例说明这套方案的使用方式，首先声明数据格式：\n```js\nclass Track extends BaseStore {\n    static schema = {\n        type: 'object',\n        properties: {\n            name: {\n                type: 'string',\n                default: ''\n            },\n            id: {\n                type: 'string',\n                primary: true\n            },\n            artistId: {\n                type: 'string'\n            }\n        },\n        required: ['id']\n    }\n\n    static views = {\n        get artist() {\n            return this.artistId$.pipe(\n                switchMap(id => (id\n                    ? ArtistStore.findOne(id).$.pipe(\n                        map(([item]) => (item\n                            ? item.data\n                            : null))\n                    )\n                    : Rx.of()))\n            );\n        }\n    }\n}\n\nclass TrackCollection extends CollectionStore {\n    static entity = Track\n}\nconst trackCollection = new TrackCollection();\n```\n\n注意 `Track.views` 的逻辑，这里的思路是，通过 `views` 方法表明对关联的 `artist` 数据的依赖。\n\n`artistId$` 表示订阅歌曲中 `artist` 数据的变动。这种只想订阅数据项中某个属性的变动，最简单的实现方式，就是使用 `distinctUntilKeyChanged` 操作符。\n\n> 返回 Observable，它发出源 Observable 发出的所有与前一项不相同的项，使用通过提供的 key 访问到的属性来检查两个项是否不同。\n\n通过这种方法，我们将不再需要类似 [reselect](https://github.com/reduxjs/reselect) 这样的工具。\n\n\n考虑使用诸如 `trackCollection.findOne(id).views('artist').$` 方法来订阅某个歌曲数据，使歌曲本身的变化，以及歌曲对应的 `artist` 艺人数据变化时，均能得到新的数据流动。也就是查找到的歌曲数据本身和 `views` 指定的 `artist` 查询的数据流，会合并得到新的数据流。\n这里可以使用 RxJs 的 `combineLatest` 操作符来实现具体的逻辑。\n\n> combineLatest 结合所有输入 Observable 参数的值. 顺序订阅每个 Observable，每当任一输入 Observable 发出，收集每个输入 Observable 的最新值组成一个数组。\n\n```js\nif (views && views.length) {\n    return Rx.combineLatest(\n        x.all$,\n        ...views.map(v => x.views[`${v}$`]).filter(Boolean)\n    );\n}\n```\n\n其中 `x` 是查询到的 entity，`x.all$` 代表了 entity 本身的数据变动，`x.views` 中以 `$` 为后缀的属性则代表了具体某个 view 属性，数据变动产生的数据流。\n\n类似的方式，考虑在 List 中添加 `itemViews` 相关的逻辑。\n\n```js\nclass TrackList extends ListStore {\n    static schema = {\n        type: 'object',\n        properties: {\n            id: {\n                type: 'string',\n                primary: true\n            },\n            list: {\n                type: 'array',\n                items: {\n                    type: 'string'\n                }\n            },\n            total: {\n                type: 'number'\n            }\n        }\n    }\n\n    static itemViews = {\n        items(id) {\n            return trackCollection\n                .findOne(id).views('artist')\n                .$.pipe(\n                    map(([item]) => item)\n                );\n        }\n    }\n}\n\nclass TrackListCollection extends CollectionStore {\n    static entity = TrackListStore\n}\n\nconst trackListCollection = new TrackListCollection();\n```\n随后我们可以往 `trackListCollection` 插入数据，而对其数据的订阅，则可以有类似这样的操作：\n```js\ntrackListCollection.findOne('newsong').exec().then(([result]) => {\n    result.join().views('items').$.subscribe(\n        data => data.items.forEach(i => render({ ...i.data, ...i.views }))\n    )\n});\n```\n\n通过这样的方法，可以获取到某个歌曲列表，并在任意歌曲和他们的歌手数据变动时，均有数据流动，得到最新的数据。实现思想与 `findOne().$` 基本一致，此处不再阐述。\n\n### 内存管理\n\n因为对于数据，均是通过对数据流进行订阅来获取的。当切换页面的时候，视图层会执行对某些数据流取消订阅的操作，同时也会影响关联的数据流的订阅状态。如图所示，灰色歌曲被视图取消订阅，关联的专辑或歌手数据流也能分析出是否继续被订阅：\n\n![image](https://p1.music.126.net/EagkhHTLRP7mYzoTGyLOAw==/109951164353281694.png)\n\n因此，对任意数据流来说，是否被订阅，可以表明视图是否在使用它。当某些数据有很长一段时间没有被订阅时，就考虑删除操作以回收内存。\n\n我们可以开设一个定时器，去找已经取消订阅，且取消订阅时间最长的数据流，优先回收它，使缓存的数据稳定在一个能被接受的内存大小。\n\n不过RxJs并没有直接提供获取到某个数据流的订阅数这样的方法，需要自己去实现一下。这是主要的思路：\n```js\nnew$ = Rx.Observable.create((subscriber) => {\n    const subscription = old$.subscribe(subscriber);\n    counter++;\n    return () => {\n        subscription.unsubscribe();\n        counter--;\n    };\n});\n```\n这里对数据流再做了一次封装，`counter` 记录了实际订阅的个数。如果 `counter` 为0，你就可以考虑清除它。\n\n### 还需要 Redux 吗？\n\n有一些解决方案，例如 redux-observable，Ngrx，都将 RxJs 与 Redux 结合在一起使用，他们结合得很好。\n\n但如果将 RxJs 仅是作为 Redux 的异步解决方案，而让视图层仍然与 Redux 接触，那其实前面说到的， RxJs 为我们带来的数据订阅，懒执行、无需单一 Store这样的特性其实就很难利用了。\n\n何况[通过 Rx 重新实现 Redux](https://github.com/jas-chen/rx-redux) 并不难。\n\n因此，我们完全有理由不使用 Redux。\n\n### 搭配 React\n\n如果不考虑使用 Redux，直接在 React 中订阅 RxJs 的数据流。如果你了解过 React-Hooks，可以使用 [React hooks for RxJS](https://github.com/LeetCode-OpenSource/rxjs-hooks)  这套方案。\n\n如果使用 React-Hooks 的方案，其底层实际使用的是 `useState` 方法，需要注意的是，这个 state 需要遵循不可变数据原则，如果对state对象进行了直接修改并返回同一对象，而不是复制数据，然后更新数据副本，`useState` 无效，React 会认为没有变化。因此，如果视图订阅的是单个数据项，可以将数据项另外存放在不可变的数组或者对象中，再提供给视图。\n\n如果坚持使用高阶组件的方式，实现一个 `connect()` 方法连接 React 与 RxJs 也不是什么难事。\n\n如果考虑在 React 中进行性能优化，这里提供两种选择：\n\n1. 对于单个数据流中，数据流动时，也需要遵循不可变数据原则，对于数据变换的部分，创建新的对象或者数组，以便于使用 `memo()` 进行浅层的判等检查，从而提升性能。\n\n    我们使用 RxJs 就是为了让变化的数据通过数据流流动，而不变化的数据不流动。结果到了 React 这里，我们却仍然需要关注不可变数据，是有那么一点点不太舒服。\n\n    但是好在我们做了范式化处理，数据项往往已经足够扁平，复制数据的操作并不会很繁琐。再加上 schema 这样的数据格式约定，完全可以自动完成这项操作，比如在更新数据的方法 `Store.prototype.upsert()` 中处理。\n\n2. 对提供给 React 订阅的数据流进行拆分。数据流中流动的数据，如果存储的是多层嵌套的数据，可以将被嵌套的数据也以数据流的形式提供给视图。例如，对于歌单，嵌套了歌曲列表的数据。视图 `<Playlist />` 订阅了数据流 `playlist$`，`playlist$` 中流动是歌单数据，其中以有序列表的形式嵌套了流动着歌曲类型的数据流 `track1$` - `trackN$`。由视图中的子组件 `<TrackItem />` 负责对其进行订阅。\n\n    ```js\n    const Playlist = () => {\n        const { payload = {} } = useObservable(() => playlist$);\n        const { views } = payload;\n        return (\n            <Name>{ payload.name }</Name>\n            <TrackList>\n                {\n                    views.tracks.map(track => <TrackItem track$={track.$} key={track.id} />)\n                }\n            </TrackList>\n        );\n    };\n\n    const TrackItem = ({ track$ }) => {\n        const data = useObservable(() => track$);\n        return (\n            <Name>{ data.name }</Name>\n        );\n    };\n    ```\n\n    这样可以一直分形下去，让每一级组件负责订阅自己所需的数据流。这样，`<Playlist />` 不再订阅歌曲项的数据流动，歌曲项的变化不会引起歌单自身区域的重新计算。但带来的问题是，每一级组件上都被数据流侵入，都出现了数据处理的逻辑，组件的 `props` 基本上仅剩下了一个数据流。视图层将不再轻量，所有组件需要基于数据流的思想进行改造，无法与其他基于 Redux 等框架的数据方案共用相同的组件。\n\n可以根据实际情况选择合适的方式，或者选择结合两种方式。\n\n## 总结\n\n- 万物皆可数据流\n- 多种方法组合数据流，直观描述数据计算、组合的逻辑\n- 订阅触发数据流动\n- 取消订阅考虑回收\n\n## 参考资料\n[复杂单页应用的数据层设计](https://zhuanlan.zhihu.com/p/24677176)\n\n[DaoCloud 基于 RxJS 的前端数据层实践](https://zhuanlan.zhihu.com/p/28958042)\n\n[像呼吸一样自然：React hooks + RxJS](https://zhuanlan.zhihu.com/p/50921147)"
+          "content": "本文翻译自[Hot vs Cold Observables](https://benlesh.medium.com/hot-vs-cold-observables-f8094ed53339)\n\n\nCOLD 是指你的生产者在 observable 内部创建。\n\n```javascript\n// COLD\nvar cold = new Observable((observer) => {\n  var producer = new Producer();\n  // have observer listen to producer here\n});\n```\n\nHOT 是指当你的生产者在 observable 外部创建。\n\n```javascript\n// HOT\nvar producer = new Producer();\nvar hot = new Observable((observer) => {\n  // have observer listen to producer here\n});\n```\n\n<!-- truncate -->\n\n## 深入了解正在发生的事情...\n\n我的上一篇关于[通过构建 Observable 学习 Observable](https://medium.com/@benlesh/learning-observable-by-building-observable-d5da57405d87)的文章主要是为了说明 `observables` 只是函数。那篇文章的目标是揭开 `observables` 本身的神秘面纱，但它并没有深入探讨也许是最容易引起困惑的概念——`observables` 的“热”和“冷”。\n\n## Observables 只是函数！\n\nObservables 只是将观察者与生产者绑定的函数。它们不一定设置生产者，而是设置一个观察者来监听生产者，并通常返回一个方法以移除监听。`subscription ` 的行为就像调用一个函数，将观察者传递给它。\n\n## 什么是生产者 Producer？\n\n生产者 Producer 是您的 observable 的值来源。它可以是 WebSockets、DOM 事件、迭代器或循环遍历数组等任何用于获取值并将其传递给 `observer.next(value)` 的东西。\n\n## 冷 Observables：生产者在内部创建\n\n如果 observable 的底层的生产者是在订阅期间被创建并激活，则该 observable 是“cold”的。这意味着，如果 observables 是函数，那么通过调用该函数来创建和激活生产者。\n\n1. 创建生产者\n2. 激活生产者\n3. 开始监听生产者\n4. 单播\n\n下面的示例是“cold”的，因为它在订阅到 Observable 时，在订阅函数中创建并监听 WebSocket：\n\n```javascript\nconst source = new Observable((observer) => {\n  const socket = new WebSocket('ws://someurl');\n  socket.addEventListener('message', (e) => observer.next(e));\n  return () => socket.close();\n});\n```\n\n因此，订阅 `source` 的任何内容都将获得自己的 WebSocket 实例，并且在取消订阅时会关闭该 socket。这意味着我们的 source 实际上只能单播，因为生产者只能发送给一个 observer。\n\n## 热 Observables：生产者在外部创建\n\n如果 observable 的底层生产者在订阅之外被创建或激活，则该 observable 是热的[^1]。\n\n1. 共享对生产者的引用\n2. 开始监听生产者\n3. 多播（通常[^2]）\n\n如果我们将上面的示例中 WebSocket 的创建移至 observable 之外，它将变成热的：\n\n```javascript\nconst socket = new WebSocket('ws://someurl');\nconst source = new Observable((observer) => {\n  socket.addEventListener('message', (e) => observer.next(e));\n});\n```\n\n现在订阅 `source` 的任何内容都将共享相同的 WebSocket 实例。现在它实际上会多播给所有订阅者。但我们有一个小问题：我们不再跟踪对 `source` 的订阅，所以我们如何在需要时关闭它？我们可以添加一些引用计数来解决这个问题：\n\n```javascript\nconst socket = new WebSocket('ws://someurl');\nconst source = new Observable((observer) => {\n  socket.addEventListener('message', (e) => observer.next(e));\n});\n\nlet refs = 0;\nreturn new Observable((observer) => {\n  refs++;\n  let sub = source.subscribe(observer);\n  return () => {\n    refs--;\n    if (refs === 0) mainSub.unsubscribe();\n    sub.unsubscribe();\n  };\n});\n```\n\n现在我们有了一个热 observable，当所有对它的订阅结束时，我们使用引用计数来判断是否取消订阅底层源 observable。[这里有一个 JSBin 展示了这个基本概念](http://jsbin.com/godawic/edit?js%2Coutput=)。\n\n### Rx Subjects\n\n在我们将冷可观测对象转换为热可观测对象之前，首先需要介绍一种新类型：Rx Subject。它具有以下几个特点：\n\n1. 它是一个可观测对象。它形式上像一个可观测对象，并且具有相同的操作符。\n2. 它是一个观察者。它以观察者身份进行鸭子类型检查。当作为可观察对象进行订阅时，会发出任何通过 `next` 输入到其中的值。\n3. 它支持多播（multicast）。通过 `subscribe()` 添加到其中的所有观察者都会被添加到内部观察者列表中。\n4. Subject 在取消订阅、完成或出错后不能再重复使用。\n5. 它会将值传递给自己。再次强调第二点，在 Subject 中 `next` 输入值后会从其自身的可观察端口输出值。\n\nRx Subject 被称为 “subject”，因为上面提到的第三点。在 Gang Of Four [^译注1] 观察者模式中，“Subject” 可以视为具有 `addObserver` 方法的类，只不过使用的是 `subscribe` 方法作为我们的 `addObserver` 方法。[这里有一个展示 Rx Subject 基本行为的 JSBin。](http://jsbin.com/muziva/1/edit?js%2Coutput=)\n\n### 将冷可观测对象转换为热可观测对象\n\n有了上面介绍过的 Rx Subject，我们可以使用一些函数式编程方法将任何“冷”可观测对象转换为“热”可观测对象：\n\n```javascript\nfunction makeHot(cold) {\n  const subject = new Subject();\n  cold.subscribe(subject);\n  return new Observable((observer) => subject.subscribe(observer));\n}\n```\n\n我们的 `makeHot` 方法将接受任何冷可观测对象，并通过创建与结果可观测对象共享的主题来使其变成热可观测对象。[这里展示了此方法运行结果。](http://jsbin.com/ketodu/1/edit?js%2Coutput=)\n\n然而，还存在一个小问题：我们没有跟踪对源（source）进行订阅，那么我们如何在需要时取消对其进行取消订阅？我们可以添加一些引用计数来解决这个问题：\n\n```javascript\nfunction makeHotRefCounted(cold) {\n  const subject = new Subject();\n  const mainSub = cold.subscribe(subject);\n  let refs = 0;\n  \n  return new Observable((observer) => {\n    refs++;\n    let sub = subject.subscribe(observer);\n    return () => {\n      refs--;\n      if (refs === 0)\n        mainSub.unsubscribe();\n      sub.unsubscribe();\n    };\n  });\n}\n```\n\n现在我们有了一个既热又使用引用计数来跟踪源（source）取消订阅情况的可观测对象。[这里展示了此方法运行结果。](http://jsbin.com/lubata/1/edit?js%2Coutput=)\n\n### 在 RxJS 中使用 `publish()` 或 `share()`\n\n您可能不应该使用上面提到过的任何 `makeHot` 函数，而应该使用像 `publish()` 和 `share()` 这样的操作符。在 Rx 中有很多方法可以使冷可观测对象变成热可观测对象，并且每种方法都能高效且简洁地执行每种操作所需工作。关于此主题，在 Rx 中使用各种操作符进行详细介绍可能需要写一篇完整文章，但本文不涉及此目标。本文旨在明确 “hot” 和 “cold” 的真正含义。\n\n在 RxJS5 中，“share()” 操作符会生成一个热且具备引用计数功能（refCounted）以便在失败时重试或成功后重复执行操作序列（observable）。由于 subjects 在错误、完成或取消订阅后无法再次使用，“share()” 操作符会重新利用已结束（dead）subjects 来允许重新对生成的observable 进行重复订阅。\n\n### “温暖”的 Observable\n\n鉴于以上所有内容，也许您可以看出一个 observable 其实既可以是“hot”，也可以是“cold”。也就是说它同时侦听两个 producers？一个由其自身创建和另一个闭包？那可能不太好...但也有极少数情况下可能会需要这样做。例如多路复用 web socket 必须共享 socket，并发送自己专属 subscription 并过滤数据流。\n\n### “Hot” 和 “Cold” 都与 Producer 相关\n\n如果您闭包了共享引用以侦听 producer，则该 observable 是“hot”的；如果您在 observable 内部创建新 producer，则该 observable 是“cold”的；如果两者都做...那您到底做什么呢？我想那就是“温暖”的吧。\n\n[^1]:（注意：说 producer 在 subscription 内部被 “activated”，但直到稍后某个时间点才被 “created”，似乎有点奇怪；但借助代理（proxies），可能还真能实现）。通常情况下，“hot” observables 的 producers 同时被创建和激活外部 subscription。\n\n[^2]: 热 observables 通常支持多播（multicast），但它们可能正在监听只支持一次监听器的 producer 上发生事件流动情况下；此时称之为 “multicast” 的依据略微模糊。\n\n[^译注1]: \\<Design Patterns\\> 这本书的作者被称为 Gang of Four “四人帮”"
         },
         {
           "id": "css-mask",
@@ -248,7 +378,12 @@
             "description": "1. 用法 ##",
             "date": "2016-12-01T10:00:00.000Z",
             "formattedDate": "2016年12月1日",
-            "tags": [],
+            "tags": [
+              {
+                "label": "css",
+                "permalink": "/tags/css"
+              }
+            ],
             "readingTime": 3.44,
             "hasTruncateMarker": true,
             "authors": [
@@ -265,12 +400,14 @@
               "title": "巧用CSS遮罩",
               "authors": "auver",
               "date": "2016-12-01T10:00",
-              "tags": []
+              "tags": [
+                "css"
+              ]
             },
             "unlisted": false,
             "prevItem": {
-              "title": "云音乐桌面端基于 RxJs 的数据层探索",
-              "permalink": "/rxjs-on-the-netease-cloud-music-desktop"
+              "title": "Observable的冷与热",
+              "permalink": "/hot-vs-cold-observables"
             }
           },
           "content": "## 1. 用法 ##\n-webkit-mask样式是利用该属性指定的图片作为遮罩，利用这张图像的透明度来显示位于该遮罩图下方的图像。如果遮罩图某个像素点透明度为1则显示下方的图像，透明度为0则不显示，介于0-1之间则呈现相应的透明度。\n详情参考 [mask - CSS | MDN][1]\n可以看到，mask的语法基本上拷贝自background，可以设置遮罩的url, position, repeat, size等属性，但不能直接设置颜色（纯色的遮罩意味着用opacity就能实现）。-webkit-mask-url可以设置gradients的渐变图片，也可以设置base64编码的图片。\n## 2. 利用mask实现图标变色 ##\n想让图标可以任意变色，常见的方案有：font-awesome, SVG等，甚至还有[drop-shadow][2]。其实可以利用background变色，而利用遮罩去绘制图标。遮罩透过的地方是图标的填色部分，而遮罩盖过的地方则没有颜色。\n这种方法的优点就是转换成本极低，可以直接利用已有的图标PNG图。具体方法如下：\n\n - 将图标保存为PNG图，注意非图标区域应该是透明的。如果原有图标是sprite图，没关系，不用变，因为mask支持position属性。原先输出的图标不是纯黑色的？也没关系，因为mask样式只认你图片的透明通道\n\n - 设置图标的CSS，例如：\n\n<!-- truncate -->\n\n```css\n.m-mask{\n\twidth:141px;\n\theight:141px;\n\t-webkit-mask-image: url(mask.png);\n\tbackground: #3f51b5;\n}\n```\n  \n - 这样就好了，效果如下\n\n![link](./link.png)\n\n完全可以把此时的background-color理解成Photoshop中的颜色叠加\n\n![ps](./ps.png)\n\n如果结合less sass，就可以做到自定义换肤了\n## 3.利用mask修复圆角头像的毛边 ##\n在实际的开发过程中，发现在较高版本的Chrome浏览器中，我们的圆角头像出现了无法容忍的毛边，定位到问题的原因是这样的：外层div利用background设置了垫底的默认图，设置了border-radius:50%。而内层的img为实际头像图，也设置了border-radius:50%。理论上两个相等大小、相同圆角的元素，也未设置任何定位，那么应该是头像完整盖着默认图。但实际并未如此，而是头像略小于默认图，因而出现了毛边。\n\n![avatar](./avatar.jpg)\n\n因此我们可以为外层div添加一个样式\n```\n-webkit-mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAACklEQVQI12NgAAAAAgAB4iG8MwAAAABJRU5ErkJggg==')\n```\nurl中设置的其实是1像素高宽的黑色图片，那么此时的遮罩就相当于外层div设置圆角区域后的一个不透明的圆形。此时就可以去掉img上的boder-radius了。最后效果如下，完美！\n\n![avatar](./avatar.png)\n\n\n  [1]: https://developer.mozilla.org/en-US/docs/Web/CSS/mask\n  [2]: http://www.zhangxinxu.com/wordpress/2016/06/png-icon-change-color-by-css/"
@@ -285,6 +422,7 @@
             "electron-apps-automatically-update",
             "react-hooks-best-practices",
             "rxjs-on-the-netease-cloud-music-desktop",
+            "hot-vs-cold-observables",
             "css-mask"
           ],
           "metadata": {
@@ -292,13 +430,244 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 7,
+            "totalCount": 8,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
-      "blogTags": {},
+      "blogTags": {
+        "/tags/sourcemap": {
+          "label": "sourcemap",
+          "items": [
+            "sourcemap"
+          ],
+          "permalink": "/tags/sourcemap",
+          "pages": [
+            {
+              "items": [
+                "sourcemap"
+              ],
+              "metadata": {
+                "permalink": "/tags/sourcemap",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/tags/javascript": {
+          "label": "javascript",
+          "items": [
+            "sourcemap",
+            "babel-plugin",
+            "rxjs-ipc",
+            "react-hooks-best-practices",
+            "rxjs-on-the-netease-cloud-music-desktop",
+            "hot-vs-cold-observables"
+          ],
+          "permalink": "/tags/javascript",
+          "pages": [
+            {
+              "items": [
+                "sourcemap",
+                "babel-plugin",
+                "rxjs-ipc",
+                "react-hooks-best-practices",
+                "rxjs-on-the-netease-cloud-music-desktop",
+                "hot-vs-cold-observables"
+              ],
+              "metadata": {
+                "permalink": "/tags/javascript",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 6,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/tags/babel": {
+          "label": "babel",
+          "items": [
+            "babel-plugin"
+          ],
+          "permalink": "/tags/babel",
+          "pages": [
+            {
+              "items": [
+                "babel-plugin"
+              ],
+              "metadata": {
+                "permalink": "/tags/babel",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/tags/ast": {
+          "label": "ast",
+          "items": [
+            "babel-plugin"
+          ],
+          "permalink": "/tags/ast",
+          "pages": [
+            {
+              "items": [
+                "babel-plugin"
+              ],
+              "metadata": {
+                "permalink": "/tags/ast",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/tags/rxjs": {
+          "label": "rxjs",
+          "items": [
+            "rxjs-ipc",
+            "rxjs-on-the-netease-cloud-music-desktop",
+            "hot-vs-cold-observables"
+          ],
+          "permalink": "/tags/rxjs",
+          "pages": [
+            {
+              "items": [
+                "rxjs-ipc",
+                "rxjs-on-the-netease-cloud-music-desktop",
+                "hot-vs-cold-observables"
+              ],
+              "metadata": {
+                "permalink": "/tags/rxjs",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 3,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/tags/electron": {
+          "label": "electron",
+          "items": [
+            "electron-apps-automatically-update"
+          ],
+          "permalink": "/tags/electron",
+          "pages": [
+            {
+              "items": [
+                "electron-apps-automatically-update"
+              ],
+              "metadata": {
+                "permalink": "/tags/electron",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/tags/hooks": {
+          "label": "hooks",
+          "items": [
+            "react-hooks-best-practices"
+          ],
+          "permalink": "/tags/hooks",
+          "pages": [
+            {
+              "items": [
+                "react-hooks-best-practices"
+              ],
+              "metadata": {
+                "permalink": "/tags/hooks",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/tags/react": {
+          "label": "react",
+          "items": [
+            "react-hooks-best-practices"
+          ],
+          "permalink": "/tags/react",
+          "pages": [
+            {
+              "items": [
+                "react-hooks-best-practices"
+              ],
+              "metadata": {
+                "permalink": "/tags/react",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/tags/css": {
+          "label": "css",
+          "items": [
+            "css-mask"
+          ],
+          "permalink": "/tags/css",
+          "pages": [
+            {
+              "items": [
+                "css-mask"
+              ],
+              "metadata": {
+                "permalink": "/tags/css",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        }
+      },
       "blogTagsListPath": "/tags"
     }
   },

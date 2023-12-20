@@ -3,7 +3,7 @@ slug: css-mask
 title: 巧用CSS遮罩
 authors: auver
 date: 2016-12-01T10:00
-tags: []
+tags: [css]
 ---
 
 ## 1. 用法 ##

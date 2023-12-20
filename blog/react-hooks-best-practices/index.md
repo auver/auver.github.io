@@ -3,7 +3,7 @@ slug: react-hooks-best-practices
 title: React Hooks 最佳实践
 authors: auver
 date: 2020-03-18T10:00
-tags: []
+tags: [hooks, react, javascript]
 ---
  
 ## 写在前面
