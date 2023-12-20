@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[739],{4951:e=>{e.exports=JSON.parse('{"label":"sourcemap","permalink":"/tags/sourcemap","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);
